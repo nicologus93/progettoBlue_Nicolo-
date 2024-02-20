@@ -1,0 +1,269 @@
+:root{
+    --bg-primary-blue:(#387dc9);
+    --border-yellow:(#ffc106)
+}
+
+.color-primary-blue{
+    color: var(--bg-primary-blue);
+}
+.border-yellow{
+color: var(--border-yellow);
+}
+
+body{
+    font-family: Righteous, Roboto;
+}
+
+h2{
+    color: #387dc9;
+}
+/* INIZIO HEADER */
+
+
+header{
+    background:linear-gradient(to top, #387ec900, #000000 ), url(./media/header.jpg);
+    color: whitesmoke;
+    height: 80vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+.wave1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    margin: 0;
+   
+    
+}
+.wave2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+   
+    
+}
+.button-header{
+    width: 150px;
+    height: 50px;
+    background-color: #ffc106;
+}
+/* fine header */
+
+
+/* INIZIO MAIN */
+main{
+    height: 100vh;
+}
+
+/* inizio card */
+.card{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    margin-top: 20px;
+    
+    
+
+}
+#card1{
+    background:linear-gradient(#000000, #387ec900, #000000 ), url(./media/1.png);
+  
+}
+
+.h2card{
+    border-bottom: 3px solid #ffc106;
+}
+
+#card2{
+    background:linear-gradient(#000000, #387ec900, #000000 ), url(./media/2.png);
+   
+}
+
+.h2card{
+    border-bottom: 3px solid #ffc106;
+}
+
+#card3{
+    background:linear-gradient(#000000, #387ec900, #000000 ), url(./media/3.png);
+   
+}
+
+.h2card{
+    border-bottom: 3px solid #ffc106;
+}
+
+#card4{
+    background:linear-gradient(#000000, #387ec900, #000000 ), url(./media/4.png);
+   
+}
+
+.h2card{
+    border-bottom: 3px solid #ffc106;
+}
+
+/* fine card */
+
+/* inizio sezione loghi */
+
+.card-lorem{
+    height: 200px;
+    /* width: 50%; */
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px  rgba(0, 0, 0, 0.404);
+}
+.contenitore-loghi{
+    width: 50%;
+    height: 200px;
+
+    
+    
+    
+}
+
+.logo{ 
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.345);
+
+}
+/* fine sezione loghi */
+
+/* inizio card slim */
+
+.contenitore-card-slim1{
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px 6px rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.contenitore-card-slim2{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px 6px rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenitore-card-slim3{
+    width: 450px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px 6px rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenitore-card-slim4{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px 6px rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* fine card slim */
+
+
+/* inizio sezione card tonde */
+.card-lorem-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 748px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px  rgba(0, 0, 0, 0.404);
+
+}
+
+.card-tonda{
+    height:300px ;
+    width: 300px;
+    border: 4px solid #387dc9;
+    border-radius: 100% ;
+    padding: 4px;
+}
+
+
+
+/* fine sezione card tonda */
+
+/* inizio sezione timeline */
+.container-timeline{
+    /* background-color: #387dc9; */
+    
+    border-right: 3px solid #387dc9;
+    display: flex;
+    justify-content: space-evenly;
+    height:80vh;
+    position: relative;
+    }
+
+
+.container-timeline2{
+    display: flex;
+    justify-content: space-evenly;
+    height:80vh;
+    }
+
+
+
+.timeline::before{
+    content: '';
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 4px solid #387dc9;
+    border-radius: 50%;
+    left:calc(100% - 16px);
+}
+.button-timeline{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #387dc9;
+}
+/* fine sezione timeline */
+/* fine main */
+
+/* inizio fotter */
+
+.footer-custom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    
+
+    
+    height: 70vh;
+    background: linear-gradient(to top, #f9f9f900, #f9f9f9), url(./media/footer.jpg);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    
+}
+.h2-footer{
+    color: #ffc106 !important;
+}
+/* fine fotter */
